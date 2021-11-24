@@ -1,4 +1,5 @@
-A=[4,6,8,2]
-B=[2,1,0,-1]
+A=[1,3,5,7]
+B=[2,4,6,8]
 n=len(A)//2
-[A[i]*(A[2*i]-B[2*i+1])+B[n+i] for i in range(n)]
+C=[((A[i+1]**2)*B[2*i])+B[n+i] for i in range(n)]
+print (C)

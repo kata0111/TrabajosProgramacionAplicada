@@ -1,6 +1,7 @@
 import math
-A=[4,6,8]
-B=[2,2,2]
-C=[1,2,3]
+A=[1,2,3]
+B=[4,5,6]
+C=[5,7,9]
 n=len(A)
-sum((A[i]*B[i])+C[i]for i in range(n))+n**2
+total=sum((A[i]*B[i])+C[i]for i in range(n))+n**2
+print (total)
